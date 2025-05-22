@@ -1,0 +1,13 @@
+requests
+python-dotenv
+langchain 
+langchain-community 
+langchain_google_genai
+mcp-use
+streamlit
+pydantic-ai
+nest_asyncio
+logfire
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+opentelemetry-instrumentation-httpx
