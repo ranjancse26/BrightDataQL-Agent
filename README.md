@@ -25,6 +25,15 @@ Please replace the following .env with your secret keys
 - LOGFIRE_TOKEN=<optional>
 - LOGFIRE_IGNORE_NO_CONFIG=1
 
+# How to Run?
+
+- Create a new virtual environment (python -m venv venv)
+- venv\Scripts\activate
+- pip install -r .\requirements.txt
+- streamlit run .\streamlit_app.py
+- Navigate to the mcp_demo folder
+- Run the domain specific sample ex: python .\mcp_healthcare_agent.py
+
 # Demo
 
 **Real-estate use-case**
