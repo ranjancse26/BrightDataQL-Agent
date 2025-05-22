@@ -1,5 +1,29 @@
 # BrightDataQL-Agent
-BrightData Query Language Agent
+Introducing the State-of-the-Art Bright Data MCP Agent - A next-generation web data intelligence system powered by Bright Data’s Model Context Protocol (MCP) and BrightDataQL (Bright Data Query Language), a schema-first, declarative query interface for extracting structured information.
+
+The agent doesn't just "browse" or "scrape" the web. It discovers, navigates, interacts, and extracts high-value information from complex, protected, or JavaScript-heavy web environments just like a human would and transforms it into structured, machine-consumable output via a natural language interface.
+
+# Pre-Requisite
+
+- Signup on https://brightdata.com/
+- Create the following proxies for Web Unlocker, SERP, Scraping Browser and MCP Server
+![BrightData-Proxies](https://github.com/user-attachments/assets/bc62a6a9-f9bf-4859-8741-34e509735f20)
+- Copy the API Keys for each of them
+- Optional Logfire - https://pydantic.dev/logfire
+- Google Gemini API Key. You may obtain from https://aistudio.google.com/
+
+# Replace the .env
+
+Please replace the following .env with your secret keys
+
+- BRIGHT_DATA_API_TOKEN=
+- WEB_UNLOCKER_ZONE=mcp_unlocker
+- BROWSER_AUTH=
+- GEMINI_API_KEY=
+- GOOGLE_GEMINI_MODEL_NAME=gemini-2.0-flash
+- MAX_MCP_AGENT_STEPS=5
+- LOGFIRE_TOKEN=<optional>
+- LOGFIRE_IGNORE_NO_CONFIG=1
 
 # Demo
 
